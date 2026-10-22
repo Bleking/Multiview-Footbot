@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated vector index (rebuilt by build_rag_chain)
+src/data/chroma/
+
+# SoccerNet video dataset (large, distributed separately)
+src/data/reference/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
